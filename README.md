@@ -29,3 +29,33 @@ Before using the script, ensure you have the following installed:
   python3.X main.py
 
 
+
+# Network Management Dashboard
+
+This project is a web-based dashboard built with Flask that provides an interface to manage and back up network devices (switches). It connects to a MongoDB database to store information about network switches and allows the user to add, edit, delete, and back up configuration data.
+
+## Features
+
+- **Login System**: User authentication using Flask-Login.
+- **Manage Network Devices**: Add, edit, and delete network switches from the MongoDB database.
+- **Backup Switch Configuration**: Generate configuration backups for all switches stored in the database.
+- **MongoDB Integration**: Uses MongoDB to store switch information and backup details.
+- **User Session Management**: Session management with a timeout of 30 minutes.
+
+## Prerequisites
+
+Before setting up this project, ensure you have the following:
+
+- **Python 3.x**: [Download Python](https://www.python.org/downloads/)
+- Required Python libraries:
+  - `Flask`
+  - `Flask-PyMongo`
+  - `Flask-Login`
+  - `pymongo`
+  - `boto3`
+
+  Install the dependencies with `pip`:
+  ```bash
+  pip install Flask Flask-PyMongo Flask-Login pymongo
+    python3.X main.py
+
