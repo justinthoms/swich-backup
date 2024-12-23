@@ -26,3 +26,6 @@ Before using the script, ensure you have the following installed:
   Install them using `pip`:
   ```bash
   pip install Flask paramiko requests schedule google-auth google-api-python-client flask_pymongo pymongo
+  python3.X main.py
+
+
